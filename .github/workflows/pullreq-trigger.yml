@@ -7,4 +7,9 @@ on:
 jobs:
   tag:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
+    steps:
+      - if: github.event.pull_request.merged == true
+        name: Run
+        run: |
+          echo  "pull request merged "
+          echo "${{ commits[0][message] }}"
