@@ -12,4 +12,4 @@ jobs:
     - name: Run
       run: |
           echo  "pull request merged "
-          echo "${{ commits[0][message] }}"
+          echo "${{ github.event.head_commit.message }}"
