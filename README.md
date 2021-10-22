@@ -3,3 +3,5 @@
 
 * release-0.1.3: Fri Oct 22 12:20:38 JST 2021 : ichiro
 * release-0.1.5: Fri Oct 22 12:51:26 JST 2021 : ichiro
+
+manual update
