@@ -1,0 +1,13 @@
+on:
+  pull_request:
+    branches:
+      - release
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run
+      run: |
+          echo  "pull request merged "
+          echo "${{ github.event.head_commit.message }}"
