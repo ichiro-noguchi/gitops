@@ -1,6 +1,3 @@
 # gitops
+* release-0.1.0: Fri Oct 22 11:22:50 JST 2021: ichiroREADME.md release-0.1.0: Fri Oct 22 11:48:42 JST 2021 : ichiro
 
-RELEASE 0.0.1: Thu Oct 21 20:10:19 JST 2021
-
-commit messate test　no.3
-README.md release-0.1.2: Fri Oct 22 12:01:28 JST 2021 : ichiro
