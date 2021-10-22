@@ -1,10 +1,15 @@
 on:
   pull_request:
     branches:
-      - master
+      - release
     types: [closed]
 
 jobs:
   tag:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
+    steps:
+    - name: Run
+      run: |
+          echo  "pull request merged "
+          echo "${{ github.event.head_commit.message }}"
