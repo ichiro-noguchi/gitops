@@ -13,3 +13,4 @@ jobs:
         URL: ${{ github.event.pull_request.comments_url }}
       run: |
        cat ${GITHUB_EVENT_PATH}
+       echo type: ${{ github.event.pull_request.type }}
