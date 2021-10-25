@@ -35,3 +35,6 @@ jobs:
        echo type: ${{ github.event.pull_request.types }}
        echo "---------"
        env 
+       echo "---------------- GITHUB_EVENT_PATH `
+       cat ${GITHUB_EVENT_PATH}
+       
